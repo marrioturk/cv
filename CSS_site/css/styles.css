@@ -9,7 +9,6 @@ h1 {
   font-size: 5.625em;
   margin: 50px auto 0 auto;
   color: #66BFBF;
-
 }
 
 h2 {
@@ -30,13 +29,7 @@ h3 {
   padding-top: 100px;
 }
 
-.middle_container {
 
-}
-
-.bottom_container {
-
-}
 
 .pro {
   text-decoration: underline;
@@ -62,9 +55,14 @@ h3 {
   border-radius: 50%;
 }
 
-.skill {
+.skill-row {
+width: 50%;
+margin: 100px auto 100px auto;
+}
+
+.skill-row img{
   height: 200px;
-  width: 200px;
+  width:200px;
   border-radius: 50%;
 }
 
