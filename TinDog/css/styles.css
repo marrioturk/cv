@@ -15,6 +15,7 @@ h1 {
 }
 
 h3 {
+  font-family: "Montserrat";
   font-size: 1.5rem;
   font-weight: 900;
 }
@@ -26,10 +27,6 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
-}
-
-.features-fluid {
   padding: 3% 15%;
 }
 
@@ -73,17 +70,19 @@ p {
 /* Features */
 
 #features {
+  padding: 7% 15%;
+}
+
+.feature-box{
+  padding: 5%;
   text-align: center;
 }
 
-.features-icon {
+.icon {
   color: #ef8172;
-  font-size: 3rem;
-  margin-bottom: 5%;
-  margin-top: 10%;
-  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.col-lg-4 {
-  padding: 0 50px;
+.icon:hover {
+  color: #ff4c68;
 }
