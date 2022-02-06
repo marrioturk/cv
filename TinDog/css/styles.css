@@ -156,3 +156,43 @@ margin: 20px;
     transform: rotate(0);
   }
 }
+
+
+/* CTA  Section */
+
+#cta {
+  background-color: #FF4C68;
+  color:#fff;
+  margin auto;
+}
+
+.h3-cta {
+  text-align: center;
+  font-size: 3rem;
+  padding: 5% 20% 0;
+}
+
+.btn-footer {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+.social {
+  padding: 10px;
+  margin: 50px 0 20px;
+}
+
+.social:hover {
+  color: #ff4c68;
+}
