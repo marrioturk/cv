@@ -1,0 +1,64 @@
+
+body {
+  font-family: "Roboto"
+}
+
+.navbar-brand {
+  font-family: "Inconsolata";
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.navbar-brand a {
+  color: yellow;
+}
+
+
+.features {
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+}
+
+/* Navigation */
+
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#header {
+  background-color: #F0ECE3;
+}
+
+#header .navbar-brand {
+color: #A68DAD;
+}
+
+#header a {
+color: #A68DAD;
+}
+
+#header .container-fluid {
+  margin: 0px;
+  height: 100px;
+}
+
+
+/* Features */
+
+#features {
+  background-color: #A68DAD;
+  color: #F0ECE3;
+}
+
+
+
+@media (max-width:800px) {
+
+  .container-fluid {
+    padding: 4% 3%;
+  }
+}
