@@ -1,64 +1,59 @@
-
 body {
-  font-family: "Roboto"
+  font-family: "Zilla Slab", serif;
+}
+
+h1, h2, h3, h4,h5, h6 {
+  font-weight: 700;
+  color: #323232;
+}
+
+p {
+  color: #323232;
+  font-size: 1rem;
+}
+
+h1.brand {
+  font-family: "Unica One";
+}
+
+
+/* containers */
+.container-fluid {
+  padding: 7% 12%;
+}
+
+#title .container-fluid {
+  /* background-color: black; */
+  padding: 1% 10%;
+}
+
+#content .container-fluid {
+  padding: 5% 10%;
+}
+
+#form .container-fluid {
+  padding: 2% 10%;
+  background-color: grey;
+}
+
+#title .navbar {
+  font-size: 1.3rem;
 }
 
 .navbar-brand {
-  font-family: "Inconsolata";
-  font-size: 3rem;
-  font-weight: 300;
-}
-
-.navbar-brand a {
-  color: yellow;
-}
-
-
-.features {
-  font-family: "Bebas Neue";
-  font-size: 2rem;
-}
-
-/* Navigation */
-
-
-
-/* Containers */
-
-.container-fluid {
-  padding: 7% 15%;
-}
-
-#header {
-  background-color: #F0ECE3;
-}
-
-#header .navbar-brand {
-color: #A68DAD;
-}
-
-#header a {
-color: #A68DAD;
-}
-
-#header .container-fluid {
-  margin: 0px;
-  height: 100px;
-}
-
-
-/* Features */
-
-#features {
-  background-color: #A68DAD;
-  color: #F0ECE3;
+  font-family: "Unica One";
+  font-size:3rem;
 }
 
 
 
-@media (max-width:800px) {
+.recent {
+  margin-top:2rem;
+}
 
-  .container-fluid {
-    padding: 4% 3%;
-  }
+/* sections */
+.contact {
+  margin-top: 5%;
+  background-color: #EDEDED;
+  padding: 3%;
 }
