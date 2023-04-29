@@ -7,7 +7,7 @@
 
 /* Style the header and navigation menu */
 header {
-  background-color: #ff66cc;
+  background-color: #000;
   color: #fff;
   padding: 20px;
 }
@@ -21,10 +21,9 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 20px;
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.5rem;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 4px #000;
+  letter-spacing: 2px;
 }
 
 nav a {
@@ -33,9 +32,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
-  background-color: #fff;
-  padding: 5px 10px;
+  color: #fff;
+  text-decoration: underline;
 }
 
 #menu-icon {
@@ -50,4 +48,6 @@ main {
   background-color: #fff;
   color: #000;
   padding: 20px;
-  font-family: 'Comic
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  line-height: 1.5
