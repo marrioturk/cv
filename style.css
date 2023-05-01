@@ -1,3 +1,8 @@
+/* .container {
+  width: 90%;
+  margin: auto;
+} */
+
 .logo {
   height: 120px;
 }
@@ -79,6 +84,14 @@ p {
   line-height: 1.5;
 }
 
+h2.inspiration {
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+}
+
 .share-buttons {
   display: flex;
   justify-content: center;
@@ -87,16 +100,18 @@ p {
 
 .share-buttons a {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
   margin-right: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease-in-out;
+  font-size: 30px;
+  color:"red";
 }
 
 .share-buttons a:hover {
-  background-color: #777;
+  color: #999;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: 0.5em;
 }

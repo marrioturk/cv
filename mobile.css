@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 48px;
+    font-size: 2em;
   }
 
   nav ul {
@@ -35,4 +35,9 @@
     padding: 12px 24px;
     margin-right: 5px;
   }
+
+footer.p {
+  font-size: 0.5em;
+}
+
 }
