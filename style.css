@@ -103,7 +103,7 @@ p {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 28px;
+    font-size: 48px;
   }
 
   nav ul {
@@ -116,7 +116,7 @@ p {
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.5px;
   }
 
@@ -126,16 +126,7 @@ p {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   p {
-    font-size: 16px;
-  }
-
-  .share-buttons a {
-    font-size: 14px;
-    padding: 8px 16px;
-    margin-right: 5px;
-  }
-}
